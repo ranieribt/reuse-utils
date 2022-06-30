@@ -3,5 +3,5 @@ from setuptools import setup
 setup(
     name = 'reuse',
     packages = ['reuse'],
-    package_dir = {'src'}
+    package_dir = {'reuse': 'src'}
 )
